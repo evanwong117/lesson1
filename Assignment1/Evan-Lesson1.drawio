@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="Page-1" id="U4xICnCkYvMU0PdGG1y4">
+    <mxGraphModel dx="1099" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1svj0WZ7MKfuoj-iPTA1-1" target="1svj0WZ7MKfuoj-iPTA1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-2" value="User input a number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-6" value="Divide number by 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="260" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1svj0WZ7MKfuoj-iPTA1-2" target="1svj0WZ7MKfuoj-iPTA1-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-8" value="see if any&amp;nbsp;&lt;div&gt;remainder&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1svj0WZ7MKfuoj-iPTA1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-10" value="This is odd number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-11" value="This is even number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1svj0WZ7MKfuoj-iPTA1-8" target="1svj0WZ7MKfuoj-iPTA1-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="430" as="sourcePoint" />
+            <mxPoint x="220" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1svj0WZ7MKfuoj-iPTA1-12">
+          <mxGeometry x="-0.1599" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1svj0WZ7MKfuoj-iPTA1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1svj0WZ7MKfuoj-iPTA1-14">
+          <mxGeometry x="0.1013" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-16" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="560" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1svj0WZ7MKfuoj-iPTA1-10" target="1svj0WZ7MKfuoj-iPTA1-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="660" as="sourcePoint" />
+            <mxPoint x="240" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1svj0WZ7MKfuoj-iPTA1-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.423;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1svj0WZ7MKfuoj-iPTA1-11" target="1svj0WZ7MKfuoj-iPTA1-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="sourcePoint" />
+            <mxPoint x="450" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
