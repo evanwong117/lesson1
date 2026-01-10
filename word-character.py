@@ -5,4 +5,4 @@ for i in word:
     if character==i:
         count=count+1
 print(count)
-    
+     
