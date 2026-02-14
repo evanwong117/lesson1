@@ -28,4 +28,3 @@ elif choice=="d":
     div(num1,num2)
 else:
     print("invalid input")
-
